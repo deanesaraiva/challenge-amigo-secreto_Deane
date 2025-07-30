@@ -27,3 +27,14 @@ function listarAmigos(){
 )
     //saida.textContent = nomesAmigos.join (', ')
 }
+
+function sortearAmigo(){
+    const indiceSorteado = Math.floor(Math.random()*nomesAmigos.length);
+    const nomeSorteado = nomesAmigos[indiceSorteado];
+    if (nomesAmigos.length === 0){
+        document.getElementById('resultadoSorteio').textContent = "A lista está vazia";
+        return; 
+    }
+   alert(`Seu amigo sorteado é: ${nomeSorteado}`);
+   return;
+   }
