@@ -11,6 +11,19 @@ function adicionarAmigo(){
         campo.value = "" ;//para limpar o campo
         listarAmigos();
     } 
-    
+
     alert ('Por favor, insira um nome.');
+}
+
+function listarAmigos(){
+    const saida = document.getElementById('resultado');
+    saida.innerHTML = '';
+
+    nomesAmigos.forEach(function(nome){
+        const li = document.createElement('li');
+        li.textContent = nome;
+        saida.appendChild(li);
+    }
+)
+    //saida.textContent = nomesAmigos.join (', ')
 }
