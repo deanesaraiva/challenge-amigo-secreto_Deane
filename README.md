@@ -2,7 +2,6 @@
 <img width="1584" height="396" alt="Amigo secreto" src="https://github.com/user-attachments/assets/f2f3d50c-ce50-470e-9448-120a8a430c4d" />
 
 # O que é o Jogo? 
-* [Índice](#índice)
 * [Descrição do Jogo](#descrição-do-jogo)
 * [Como usar](#como-usar)
 * [Códigos utilizados](#codigos-utilizados)
