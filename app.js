@@ -10,9 +10,10 @@ function adicionarAmigo(){
         nomesAmigos.push (nome);
         campo.value = "" ;//para limpar o campo
         listarAmigos();
-    } 
-
+    } else{
     alert ('Por favor, insira um nome.');
+}
+
 }
 
 function listarAmigos(){
